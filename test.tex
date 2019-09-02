@@ -1,22 +1,182 @@
  
 \pagestyle{empty}
 \setlength{\parindent}{0cm}
+\newpage
+This page empty
+\newpage
 
-\noindent \textsf{\Large Incline dumbbell fly} 
+\begin{tikzpicture}[
+    triangle/.style = {regular polygon, 
+                       regular polygon sides=3, 
+	               minimum size=0.3cm,
+                       isosceles triangle, 
+                       isosceles triangle apex angle=90, 
+	               anchor=apex,
+	               color=black!30,
+                       rotate=-45 },
+    box/.style = {      
+                       draw,
+		       inner sep=0pt,
+	               color=black!50,
+		       anchor=south east,
+		       minimum size=0.09cm}
+   ]
+   
+   \node [rectangle] at (-1,6.5) {};
+   \node [anchor=west] at (-1,4) {\includegraphics[height=4cm]{./incline-dumbbell-fly.png}};
+   \node [anchor=west] at (-1,6) {\textsf{\Large Incline dumbbell fly}};
+   \node at (-0.7, 1.75) {\tiny\textsf{notes}};
+   \node at (-0.5,1.75) [anchor=west, text width=10cm, inner sep=0pt, align=left] {
+           \begin{minipage}{0.50\textwidth}
+                   \tiny
+weight is the weight of a single dumbbell 
+           \end{minipage}
+   };
 
+    \node at (-0.7,1.25)  {\tiny\textsf{mnt}};
+    \node at (-0.7,0.75)  {\tiny\textsf{day}};
+    \node at (-0.7,0.25)  {\tiny\textsf{wu}};
+    \node at (-0.7,-0.25) {\tiny\textsf{r1}};
+    \node at (-0.7,-0.75) {\tiny\textsf{r2}};
+    \node at (-0.7,-1.25) {\tiny\textsf{r3}};
+    \node at (-0.7,-1.75) {\tiny\textsf{r4}};
 
-\includegraphics[height=4cm]{./incline-dumbbell-fly.png}
+    \foreach \x in {1,...,2} {
+    \foreach \y in {0,...,17} {
+	 \draw (\y/2, \x/2) -- ++ (-.5,0);
+	 \draw (\y/2, \x/2) -- ++ (0,0.1);
+    }
+    }
 
-\textsf{Max}
+    \foreach \x in {0,...,4} {
+    \foreach \y in {0,...,17} {
+         \node [draw,triangle] at (\y/2,-\x/2) {};
+         \node [draw, box] at (\y/2,-\x/2) {};
+    }
+    }
 
-\begin{tikzpicture}
-    \draw[line width=.4pt,draw=black!30] (0,0) grid[step=1mm] (\paperwidth*0.9,\paperheight/5);
-    \draw[line width=.4pt,draw=black!50] (0,0) grid[step=1cm] (\paperwidth*0.9,\paperheight/5);
-  \end{tikzpicture}%
+  \begin{axis}[
+          every axis/.append style={font=\tiny},
+          grid style={gray!20},
+          major y grid style=black,
+          minor grid style=gray!20,
+          grid=both,
+          width=10.58cm,
+          height=3.5cm,
+          ymin=4,
+          ymax=20,
+          xmax=19,
+          xmin=1,
+          xticklabel=\empty,
+          minor x tick num=1,
+          minor y tick num=4,
+          axis lines = middle,
+          at={(-.5cm,-4.5cm)},
+          ]
+  \end{axis}
 
-\textsf{1RM}
+  \begin{axis}[
+          every axis/.append style={font=\tiny},
+          grid style={gray!20},
+          major y grid style=black,
+          minor grid style=gray!20,
+          grid=both,
+          width=10.58cm,
+          height=3.5cm,
+          ymin=4,
+          ymax=12,
+          xmax=19,
+          xmin=1,
+          xticklabel=\empty,
+          minor x tick num=1,
+          minor y tick num=4,
+          axis lines = middle,
+          at={(-.5cm,-7cm)},
+          ]
+   \end{axis}
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture}[
+    triangle/.style = {regular polygon, 
+                       regular polygon sides=3, 
+	               minimum size=0.3cm,
+                       isosceles triangle, 
+                       isosceles triangle apex angle=90, 
+	               anchor=apex,
+	               color=black!30,
+                       rotate=-45 },
+    box/.style = {      
+                       draw,
+		       inner sep=0pt,
+	               color=black!50,
+		       anchor=south east,
+		       minimum size=0.09cm}
+   ]
+   
+   \node [rectangle] at (-1,6.5) {};
+   % \node [anchor=west] at (-1,4) {\includegraphics[height=4cm]{./incline-dumbbell-fly.png}};
+   % \node [anchor=west] at (-1,6) {\textsf{\Large Incline dumbbell fly}};
+   % \node at (-0.7, 1.75) {\tiny\textsf{notes}};
 
-\begin{tikzpicture}
-    \draw[line width=.4pt,draw=black!30] (0,0) grid[step=1mm] (\paperwidth*0.9,\paperheight/5);
-    \draw[line width=.4pt,draw=black!50] (0,0) grid[step=1cm] (\paperwidth*0.9,\paperheight/5);
-  \end{tikzpicture}%
+    \node at (-0.7,1.25)  {\tiny\textsf{mnt}};
+    \node at (-0.7,0.75)  {\tiny\textsf{day}};
+    \node at (-0.7,0.25)  {\tiny\textsf{wu}};
+    \node at (-0.7,-0.25) {\tiny\textsf{r1}};
+    \node at (-0.7,-0.75) {\tiny\textsf{r2}};
+    \node at (-0.7,-1.25) {\tiny\textsf{r3}};
+    \node at (-0.7,-1.75) {\tiny\textsf{r4}};
+
+    \foreach \x in {1,...,2} {
+    \foreach \y in {0,...,17} {
+	 \draw (\y/2, \x/2) -- ++ (-.5,0);
+	 \draw (\y/2, \x/2) -- ++ (0,0.1);
+    }
+    }
+
+    \foreach \x in {0,...,4} {
+    \foreach \y in {0,...,17} {
+         \node [draw,triangle] at (\y/2,-\x/2) {};
+         \node [draw, box] at (\y/2,-\x/2) {};
+    }
+    }
+
+  \begin{axis}[
+          every axis/.append style={font=\tiny},
+          grid style={gray!20},
+          major y grid style=black,
+          minor grid style=gray!20,
+          grid=both,
+          width=10.58cm,
+          height=3.5cm,
+          ymin=4,
+          ymax=20,
+          xmax=19,
+          xmin=1,
+          xticklabel=\empty,
+          minor x tick num=1,
+          minor y tick num=4,
+          axis lines = middle,
+          at={(-.5cm,-4.5cm)},
+          ]
+  \end{axis}
+
+  \begin{axis}[
+          every axis/.append style={font=\tiny},
+          grid style={gray!20},
+          major y grid style=black,
+          minor grid style=gray!20,
+          grid=both,
+          width=10.58cm,
+          height=3.5cm,
+          ymin=4,
+          ymax=12,
+          xmax=19,
+          xmin=1,
+          xticklabel=\empty,
+          minor x tick num=1,
+          minor y tick num=4,
+          axis lines = middle,
+          at={(-.5cm,-7cm)},
+          ]
+   \end{axis}
+\end{tikzpicture}
