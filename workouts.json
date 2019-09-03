@@ -1,0 +1,31 @@
+{
+  "title": "VZ - Workoutbook",
+  "workouts": [
+    {
+      "name": "Incline dumbbell fly",
+      "minimumreps": 10,
+      "maximumreps": 15,
+      "minsets": 2,
+      "maxsets": 4,
+      "suggestedprogression": [10, 11, 13, 15],
+      "picture": "./images/incline-dumbbell-fly.png",
+      "hasweight": "yes",
+      "weightmin": 5,
+      "weightmax": 10,
+      "negativeweight": false
+    },
+    {
+      "name": "reverse crunch",
+      "minimumreps": 15,
+      "maximumreps": 25,
+      "minsets": 2,
+      "maxsets": 4,
+      "suggestedprogression": [10, 11, 13, 15],
+      "picture": "./images/reverse-crunch.png",
+      "hasweight": "yes",
+      "weightmin": 0,
+      "weightmax": 4,
+      "negativeweight": false
+    }
+  ]
+}
