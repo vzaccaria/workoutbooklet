@@ -1,7 +1,6 @@
 
-watch:
-	(tikz2pdf  -t template.tex test.tex -e xelatex --silent --watch -p --usepackage pgfplots &)
-	nvim test.tex
+output.pdf:
+	vz-workouts ./workouts.json -o output.pdf
 
 kill:
 	pkill -f tikz2pdf
