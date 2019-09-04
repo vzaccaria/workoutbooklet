@@ -3,8 +3,8 @@
   "workouts": [
     {
       "name": "Incline dumbbell fly",
-      "minimumreps": 10,
-      "maximumreps": 15,
+      "minreps": 10,
+      "maxreps": 15,
       "minsets": 2,
       "maxsets": 4,
       "suggestedprogression": [10, 11, 13, 15],
@@ -12,12 +12,13 @@
       "hasweight": "yes",
       "weightmin": 5,
       "weightmax": 10,
-      "negativeweight": false
+      "negativeweight": false,
+      "notes": ["Ciccio"]
     },
     {
       "name": "reverse crunch",
-      "minimumreps": 15,
-      "maximumreps": 25,
+      "minreps": 15,
+      "maxreps": 25,
       "minsets": 2,
       "maxsets": 4,
       "suggestedprogression": [10, 11, 13, 15],
@@ -25,7 +26,13 @@
       "hasweight": "yes",
       "weightmin": 0,
       "weightmax": 4,
-      "negativeweight": false
+      "negativeweight": false,
+      "notes": [
+        "Keep the movement slow and controlled. Do not use momentum.",
+        "Try to resist the lowering of your hips.",
+        "Keep your feet off the floor.",
+        "Keep your lower back straight so that it makes contact with the floor. If this is difficult for you, place your hands under your buttocks. This will help to straighten your lower back as well as support your pelvis. See video."
+      ]
     }
   ]
 }
