@@ -3,7 +3,15 @@
   "plans": [
     {
       "name": "Day A",
-      "dayplan": [["wk1", "alt1.1", "alt1.2"], ["wk2", "alt2.1", "alt2.2"]]
+      "dayplan": [
+        ["Shoulder lateral raise"],
+        ["Barbell bench press"],
+        ["Widegrip lat pulldown", "Assisted pull up"],
+        ["Triceps push down"],
+        ["Dumbbell alternate biceps"],
+        ["Calf raise"],
+        ["Abdominals"]
+      ]
     },
     {
       "name": "Day B",
@@ -12,36 +20,143 @@
   ],
   "workouts": [
     {
-      "name": "Incline dumbbell fly",
-      "minreps": 10,
-      "maxreps": 15,
-      "minsets": 2,
+      "name": "Shoulder lateral raise",
+      "minreps": 8,
+      "maxreps": 12,
+      "minsets": 3,
       "maxsets": 4,
-      "suggestedprogression": [10, 11, 13, 15],
-      "picture": "./images/incline-dumbbell-fly.png",
+      "suggestedprogression": [8, 8, 8, 8],
+      "picture": "./images/dumbbell-lateral-raise.png",
       "hasweight": "yes",
-      "weightmin": 5,
+      "weightmin": 4,
       "weightmax": 10,
       "negativeweight": false,
-      "notes": ["Ciccio"]
+      "notes": [
+        "Bend forward a little at the hips.",
+        "Eternally rotate your shoulders so that your thumbs point out diagonally",
+        "Keeping your elbows slightly bent, exhale as you raise both upper arms out to the sides until your elbows are level with your shoulders.",
+        "Hold for a count of two.",
+        "Inhale as you lower the dumbbells to the starting position."
+      ]
     },
     {
-      "name": "Reverse crunch",
-      "minreps": 15,
-      "maxreps": 25,
-      "minsets": 2,
-      "maxsets": 4,
-      "suggestedprogression": [10, 11, 13, 15],
-      "picture": "./images/reverse-crunch.png",
+      "name": "Barbell bench press",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [8, 8, 8, 8],
+      "picture": "./images/barbell-bench-press.png",
       "hasweight": "yes",
-      "weightmin": 0,
-      "weightmax": 4,
+      "weightmin": 10,
+      "weightmax": 16,
       "negativeweight": false,
       "notes": [
-        "Keep the movement slow and controlled. Do not use momentum.",
-        "Try to resist the lowering of your hips.",
-        "Keep your feet off the floor.",
-        "Keep your lower back straight so that it makes contact with the floor. If this is difficult for you, place your hands under your buttocks. This will help to straighten your lower back as well as support your pelvis. See video."
+        "Log the total of discs",
+        "Factor out barbell weight (7.5kg) only when logging. Factor it in when computing max and 1RM.",
+        "Arch your back. While holding the barbell, retract (push together) your shoulder blades and straighten your wrists."
+      ]
+    },
+    {
+      "name": "Widegrip lat pulldown",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [8, 8, 8, 8],
+      "picture": "./images/wide-grip-lat-pulldown.png",
+      "hasweight": "yes",
+      "weightmin": 30,
+      "weightmax": 50,
+      "negativeweight": false,
+      "notes": [
+        "Exhale as you slowly pull the bar down until it touches the upper part of your chest.  Squeeze your shoulder blades together and hold for a count of two.",
+        "Extend your arms fully on the return phase."
+      ]
+    },
+    {
+      "name": "Assisted pull up",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [8, 8, 8, 8],
+      "picture": "./images/assisted-pull-up.png",
+      "hasweight": "yes",
+      "weightmin": 30,
+      "weightmax": 50,
+      "negativeweight": false,
+      "notes": [
+        "Log negative weight. But factor in your weight when computing max and 1RM",
+        "After pull up, hold for a count of two and squeeze your back muscles."
+      ]
+    },
+    {
+      "name": "Triceps push down",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, 8],
+      "picture": "./images/triceps-rope-push-down.png",
+      "hasweight": "yes",
+      "weightmin": 10,
+      "weightmax": 20,
+      "negativeweight": false,
+      "notes": ["Good in pre-exhaustion set with bodyweight triceps"]
+    },
+    {
+      "name": "Dumbbell alternate biceps",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, 8],
+      "picture": "./images/dumbbell-alternate-biceps-curl.png",
+      "hasweight": "yes",
+      "weightmin": 6,
+      "weightmax": 14,
+      "negativeweight": false,
+      "notes": [
+        "Remember to count to two and squeeze your biceps",
+        "Log a SINGLE dumbbell!",
+        "Instead of alternating your arms you can complete all the reps for one arm before performing the reps with the other arm. "
+      ]
+    },
+    {
+      "name": "Dumbbell squat",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, 8],
+      "picture": "./images/dumbbell-squat.png",
+      "hasweight": "yes",
+      "weightmin": 16,
+      "weightmax": 32,
+      "negativeweight": false,
+      "notes": [
+        "Log the sum of the two dumbbells. Weight refers to the sum.",
+        "Keeping your torso upright and your shoulders back, inhale as you squat down by pushing your butt backward and bending your knees forward. Descend at least until your thighs are parallel with the floor."
+      ]
+    },
+    {
+      "name": "Calf raise",
+      "minreps": 15,
+      "maxreps": 20,
+      "minsets": 2,
+      "maxsets": 4,
+      "suggestedprogression": [15, 15, 15, 15],
+      "picture": "./images/calf-raise.png",
+      "hasweight": "yes",
+      "weightmin": 0,
+      "weightmax": 8,
+      "negativeweight": false,
+      "notes": [
+        "With your left foot, stand on a platform, with the arch and heel of your foot suspending off.",
+        "Exhale as you raise your heel by extending your ankle (plantar flexion).",
+        "Hold for a count of two. The point of holding for a count of one after lowering your heel is to dissipate all of the elastic energy that is stored in your Achilles tendon and thus prevent cheating.",
+        "Inhale as you slowly reverse the motion (dorsiflexion) and lower your heel until you feel a mild stretch in your calf."
       ]
     }
   ]
