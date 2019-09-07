@@ -1,5 +1,15 @@
 {
   "title": "VZ - Workoutbook",
+  "plans": [
+    {
+      "name": "Day A",
+      "dayplan": [["wk1", "alt1.1", "alt1.2"], ["wk2", "alt2.1", "alt2.2"]]
+    },
+    {
+      "name": "Day B",
+      "dayplan": [["wk1", "alt1.1", "alt1.2"], ["wk2", "alt2.1", "alt2.2"]]
+    }
+  ],
   "workouts": [
     {
       "name": "Incline dumbbell fly",
@@ -16,7 +26,7 @@
       "notes": ["Ciccio"]
     },
     {
-      "name": "reverse crunch",
+      "name": "Reverse crunch",
       "minreps": 15,
       "maxreps": 25,
       "minsets": 2,
