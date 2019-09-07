@@ -9,4 +9,4 @@ kill:
 	pkill -f tikz2pdf
 
 clean:
-	rm tmp-* *.pdf
+	rm -f tmp-* *.pdf
