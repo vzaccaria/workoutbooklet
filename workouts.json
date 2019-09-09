@@ -10,7 +10,7 @@
         ["Widegrip lat pulldown", "Assisted pull up"],
         ["Triceps push down"],
         ["Dumbbell alternate biceps"],
-        ["Dumbbell squat", "Leg extension"],
+        ["Dumbbell squat", "Leg press", "Leg extension"],
         ["Calf raise"],
         ["Abdominals"]
       ]
@@ -24,7 +24,7 @@
         ["Dumbbell bent-over lateral raise"],
         ["Dumbbell alternate biceps"],
         ["Triceps push down"],
-        ["Dumbbell squat", "Leg extension"],
+        ["Dumbbell squat", "Leg press", "Leg extension"],
         ["Leg curl"],
         ["Calf raise"]
       ]
@@ -283,6 +283,23 @@
       "notes": [
         "Keep the movement slow and controlled.  Try to resist the lowering of the lever; don’t just let it drop.  Don’t allow your hips to rise off the bench.",
         "Keep your ankles flexed so that your toes point toward your shins. This allows your gastrocnemii to offer better assistance.  Adjusting the orientation of your feet during the lying leg curl emphasizes different hamstring muscles. Keep your feet straight to emphasize all hamstrings. Turn your feet inward to emphasize your inner hamstrings (semitendinosus and semimembranosus). Turn your feet outward to emphasize your outer hamstring (biceps femoris)."
+      ]
+    },
+    {
+      "name": "Leg press",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/leg-press.png",
+      "hasweight": "yes",
+      "weightmin": 30,
+      "weightmax": 60,
+      "notes": [
+        "Keep your feet flat on the platform, and your knees and toes pointing in the same direction (slightly outward).",
+        "Do not lock your knees out when you press the platform up.",
+        " The incline leg press is a very versatile exercise. Altering the position of your feet on the platform will emphasize different muscle groups. The higher your feet on the platform, the more you will emphasize your gluteus maximus and hamstrings. The lower your feet on the platform, the more you will emphasize your quadriceps. The wider your feet on the platform, the more you will emphasize your adductor magnus and inner quadriceps. The closer-together your feet on the platform, the more you will emphasize your outer quadriceps."
       ]
     }
   ]
