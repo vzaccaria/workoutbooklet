@@ -1,5 +1,6 @@
 {
   "title": "VZ - Workoutbook",
+  "bodyweight": 70,
   "plans": [
     {
       "name": "Day A",
@@ -41,7 +42,6 @@
       "hasweight": "yes",
       "weightmin": 4,
       "weightmax": 10,
-      "negativeweight": false,
       "notes": [
         "Bend forward a little at the hips.",
         "Eternally rotate your shoulders so that your thumbs point out diagonally",
@@ -61,7 +61,6 @@
       "hasweight": "yes",
       "weightmin": 10,
       "weightmax": 16,
-      "negativeweight": false,
       "notes": [
         "Log the total of discs",
         "Factor out barbell weight (7.5kg) only when logging. Factor it in when computing max and 1RM.",
@@ -79,7 +78,6 @@
       "hasweight": "yes",
       "weightmin": 30,
       "weightmax": 50,
-      "negativeweight": false,
       "notes": [
         "Exhale as you slowly pull the bar down until it touches the upper part of your chest.  Squeeze your shoulder blades together and hold for a count of two.",
         "Extend your arms fully on the return phase."
@@ -96,7 +94,7 @@
       "hasweight": "yes",
       "weightmin": 30,
       "weightmax": 50,
-      "negativeweight": false,
+      "bodyweight": "subtract",
       "notes": [
         "Log negative weight. But factor in your weight when computing max and 1RM",
         "After pull up, hold for a count of two and squeeze your back muscles."
@@ -113,7 +111,6 @@
       "hasweight": "yes",
       "weightmin": 10,
       "weightmax": 20,
-      "negativeweight": false,
       "notes": ["Good in pre-exhaustion set with bodyweight triceps"]
     },
     {
@@ -127,7 +124,6 @@
       "hasweight": "yes",
       "weightmin": 6,
       "weightmax": 14,
-      "negativeweight": false,
       "notes": [
         "Remember to count to two and squeeze your biceps",
         "Log a SINGLE dumbbell!",
@@ -145,7 +141,6 @@
       "hasweight": "yes",
       "weightmin": 16,
       "weightmax": 32,
-      "negativeweight": false,
       "notes": [
         "Log the sum of the two dumbbells. Weight refers to the sum.",
         "Keeping your torso upright and your shoulders back, inhale as you squat down by pushing your butt backward and bending your knees forward. Descend at least until your thighs are parallel with the floor."
@@ -162,7 +157,7 @@
       "hasweight": "yes",
       "weightmin": 0,
       "weightmax": 8,
-      "negativeweight": false,
+      "bodyweight": "add",
       "notes": [
         "Factor in your weight when computing 1RM",
         "With your left foot, stand on a platform, with the arch and heel of your foot suspending off.",
@@ -182,7 +177,6 @@
       "hasweight": "yes",
       "weightmin": 8,
       "weightmax": 16,
-      "negativeweight": false,
       "notes": [
         "Just one arm",
         "Pull with your elbow, not with your biceps.",
@@ -201,7 +195,6 @@
       "hasweight": "yes",
       "weightmin": 20,
       "weightmax": 40,
-      "negativeweight": false,
       "notes": [
         "Grasp the double-row bar and slide your bottom backward until your knees are almost straight. You torso should be leaning forward and your arms and shoulders should be stretching forward.",
         "Exhale as you slowly lean backward, straighten your back, and pull the v-bar to your abdomen, keeping your elbows close to your body. Pull your shoulders back and stick out your chest at the top of the movement.",
@@ -219,7 +212,6 @@
       "hasweight": "yes",
       "weightmin": 20,
       "weightmax": 40,
-      "negativeweight": false,
       "notes": [
         "Grasp the handles. Your arms and shoulders should be stretched forward.",
         "Keeping your back straight, exhale as you pull one of the handles to the side of your waist.  Hold for a count of two, stick out your chest, and squeeze your back muscles."
@@ -236,7 +228,6 @@
       "hasweight": "yes",
       "weightmin": 8,
       "weightmax": 16,
-      "negativeweight": false,
       "notes": [
         "Log a SINGLE dumbbell!",
         "Exhale as you press the dumbbells upward and inward until they almost touch over your head.  At the top of the movement, shrug your shoulders to raise the dumbbells even higher.",
@@ -255,7 +246,6 @@
       "hasweight": "yes",
       "weightmin": 4,
       "weightmax": 16,
-      "negativeweight": false,
       "notes": [
         "Log a SINGLE dumbbell!",
         "Holding a dumbbell in each hand, bend at the hips and knees until your torso is parallel to the floor. Your back should be straight and your arms should be hanging in front of you, with your palms facing inwards (neutral grip).",
@@ -274,7 +264,6 @@
       "hasweight": "yes",
       "weightmin": 16,
       "weightmax": 32,
-      "negativeweight": false,
       "notes": [
         "Exhale as you lift the lever forwards and upwards by straightening your legs until they are fully extended.  Hold for a count of two.  Inhale as you return the lever to the starting position by bending your knees.",
         "Adjust the back support and seat to accommodate full range of motion.  Position your knees at the same axis as the lever fulcrum.  As you raise the padded lever, do not allow your hips to curl up; keep your thighs in firm contact with the seat.  Do not go too heavy because it can be bad for your knees."
@@ -291,7 +280,6 @@
       "hasweight": "yes",
       "weightmin": 16,
       "weightmax": 32,
-      "negativeweight": false,
       "notes": [
         "Keep the movement slow and controlled.  Try to resist the lowering of the lever; don’t just let it drop.  Don’t allow your hips to rise off the bench.",
         "Keep your ankles flexed so that your toes point toward your shins. This allows your gastrocnemii to offer better assistance.  Adjusting the orientation of your feet during the lying leg curl emphasizes different hamstring muscles. Keep your feet straight to emphasize all hamstrings. Turn your feet inward to emphasize your inner hamstrings (semitendinosus and semimembranosus). Turn your feet outward to emphasize your outer hamstring (biceps femoris)."
