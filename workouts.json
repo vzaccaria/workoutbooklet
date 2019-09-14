@@ -1,32 +1,29 @@
 {
   "title": "VZ - Workoutbook",
   "bodyweight": 70,
+  "barbell": 7.5,
   "plans": [
     {
       "name": "Day A",
       "dayplan": [
         ["Shoulder lateral raise"],
         ["Barbell bench press"],
-        ["Widegrip lat pulldown", "Assisted pull up"],
-        ["Triceps push down"],
         ["Dumbbell alternate biceps"],
-        ["Dumbbell squat", "Leg press", "Leg extension"],
-        ["Calf raise"],
+        ["Push up"],
+        ["Triceps push down"],
         ["Abdominals"]
       ]
     },
     {
       "name": "Day B",
       "dayplan": [
-        ["Push up"],
-        ["Bent-over dumbbell row", "Seated cable row", "Machine one-arm row"],
-        ["Dumbbell shoulder press"],
-        ["Dumbbell bent-over lateral raise"],
-        ["Dumbbell alternate biceps"],
-        ["Triceps push down"],
-        ["Dumbbell squat", "Leg press", "Leg extension"],
-        ["Leg curl"],
-        ["Calf raise"]
+        ["Widegrip lat pulldown", "Assisted pull up"],
+        ["Dumbbell hammer curl (biceps)"],
+        ["Bent knee bench dip"],
+        ["Lying triceps extension"],
+        ["Shoulder lateral raise"],
+        ["Incline dumbbell fly"],
+        ["Abdominals"]
       ]
     }
   ],
@@ -42,6 +39,7 @@
       "hasweight": "yes",
       "weightmin": 4,
       "weightmax": 10,
+      "singledumbbell": true,
       "notes": [
         "Bend forward a little at the hips.",
         "Eternally rotate your shoulders so that your thumbs point out diagonally",
@@ -59,8 +57,9 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/barbell-bench-press.png",
       "hasweight": "yes",
-      "weightmin": 10,
-      "weightmax": 16,
+      "weightmin": 20,
+      "weightmax": 32,
+      "hasbarbell": true,
       "notes": [
         "Log the total of discs",
         "Factor out barbell weight (7.5kg) only when logging. Factor it in when computing max and 1RM.",
@@ -114,6 +113,39 @@
       "notes": ["Good in pre-exhaustion set with bodyweight triceps"]
     },
     {
+      "name": "Lying Triceps Extension",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/lying-dumbbell-triceps-extension.png",
+      "hasweight": "yes",
+      "weightmin": 6,
+      "weightmax": 20,
+      "singledumbbell": true,
+      "notes": [
+        "Keep your upper arm still and vertical. Only your forearm should move.  Do not lock out your elbow at the top of the movement."
+      ]
+    },
+    {
+      "name": "Bent knee bench dip",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/bent-knee-bench-dip",
+      "hasweight": "no",
+      "weightmin": 0,
+      "weightmax": 0,
+      "notes": [
+        "Do not lower your body beyond feeling a mild stretch in your shoulders.",
+        "The point of keeping your torso upright and your elbows close to your body is to keep the emphasis on your triceps brachii instead of on your pectoralis major.",
+        "Make the bent-knee bench dip more difficult by extending your legs farther out."
+      ]
+    },
+    {
       "name": "Dumbbell alternate biceps",
       "minreps": 8,
       "maxreps": 10,
@@ -124,10 +156,27 @@
       "hasweight": "yes",
       "weightmin": 6,
       "weightmax": 14,
+      "singledumbbell": true,
       "notes": [
         "Remember to count to two and squeeze your biceps",
-        "Log a SINGLE dumbbell!",
         "Instead of alternating your arms you can complete all the reps for one arm before performing the reps with the other arm. "
+      ]
+    },
+    {
+      "name": "Dumbbell hammer curl (biceps)",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/dumbbell-hammer-curl.png",
+      "hasweight": "yes",
+      "weightmin": 6,
+      "weightmax": 14,
+      "singledumbbell": true,
+      "notes": [
+        "Remember to count to two and squeeze your biceps",
+        "You can perform the dumbbell hammer curl with either both arms at once (see video), one arm at a time, or by alternating your arms (as described above). The latter two methods will recruit more muscles in your core for stabilization."
       ]
     },
     {
@@ -141,6 +190,7 @@
       "hasweight": "yes",
       "weightmin": 16,
       "weightmax": 32,
+      "singledumbbell": false,
       "notes": [
         "Log the sum of the two dumbbells. Weight refers to the sum.",
         "Keeping your torso upright and your shoulders back, inhale as you squat down by pushing your butt backward and bending your knees forward. Descend at least until your thighs are parallel with the floor."
@@ -228,11 +278,29 @@
       "hasweight": "yes",
       "weightmin": 8,
       "weightmax": 16,
+      "singledumbbell": true,
       "notes": [
-        "Log a SINGLE dumbbell!",
         "Exhale as you press the dumbbells upward and inward until they almost touch over your head.  At the top of the movement, shrug your shoulders to raise the dumbbells even higher.",
         "Keep your back straight.  For optimal back support, make sure your lower back is in constant contact with the back of the chair.",
         "To raise heavy dumbbells into position, rest them on your knees and then kick them up into position one at a time."
+      ]
+    },
+    {
+      "name": "Incline dumbbell fly",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/dumbbell-shoulder-press.png",
+      "hasweight": "yes",
+      "weightmin": 4,
+      "weightmax": 16,
+      "singledumbbell": true,
+      "notes": [
+        "When you have finished, bring your knees up and gently lower the dumbbells down onto your knees, which will help you to sit up.",
+        "Keeping your elbows locked, inhale as you lower the dumbbells to your sides in an arcing motion until you feel a mild stretch in your chest or shoulders.",
+        "Exhale as you reverse the motion and press the dumbbells back up to the starting position."
       ]
     },
     {
@@ -246,8 +314,8 @@
       "hasweight": "yes",
       "weightmin": 4,
       "weightmax": 16,
+      "singledumbbell": true,
       "notes": [
-        "Log a SINGLE dumbbell!",
         "Holding a dumbbell in each hand, bend at the hips and knees until your torso is parallel to the floor. Your back should be straight and your arms should be hanging in front of you, with your palms facing inwards (neutral grip).",
         "raise both arms out to the sides until the dumbbells are level with the height of your shoulders. ",
         "Keep your back straight and your body still.  You will not target your posterior deltoids unless your torso is horizontal."
