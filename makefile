@@ -5,6 +5,9 @@ booklet.pdf: output.pdf
 output.pdf: ./workouts.json /Users/zaccaria/development/github/org-devtools/vz-clitools/workouts.js /Users/zaccaria/development/github/org-devtools/vz-clitools/fixtures/booklet/workout.tex /Users/zaccaria/development/github/org-devtools/vz-clitools/fixtures/booklet/main.tex
 	vz-workouts $< -o output.pdf
 
+print: ./workouts.json /Users/zaccaria/development/github/org-devtools/vz-clitools/workouts.js
+	vz-workouts $< -m
+
 kill:
 	pkill -f tikz2pdf
 

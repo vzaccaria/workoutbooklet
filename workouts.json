@@ -7,11 +7,11 @@
       "name": "Day A",
       "dayplan": [
         ["Shoulder lateral raise"],
-        ["Barbell bench press"],
+        ["Barbell bench press", "Incline dumbbell fly"],
         ["Dumbbell alternate biceps"],
-        ["Push up"],
+        ["Leg curl"],
         ["Triceps push down"],
-        ["Abdominals"]
+        ["Bicycle crunch"]
       ]
     },
     {
@@ -20,10 +20,10 @@
         ["Widegrip lat pulldown", "Assisted pull up"],
         ["Dumbbell hammer curl (biceps)"],
         ["Bent knee bench dip"],
-        ["Lying triceps extension"],
+        ["Triceps push down"],
         ["Shoulder lateral raise"],
-        ["Incline dumbbell fly"],
-        ["Abdominals"]
+        ["Leg press", "Leg extension"],
+        ["Hanging legs hip raise"]
       ]
     }
   ],
@@ -37,7 +37,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/dumbbell-lateral-raise.png",
       "hasweight": "yes",
-      "weightmin": 4,
+      "weightmin": 3,
       "weightmax": 10,
       "singledumbbell": true,
       "notes": [
@@ -57,7 +57,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/barbell-bench-press.png",
       "hasweight": "yes",
-      "weightmin": 20,
+      "weightmin": 10,
       "weightmax": 32,
       "hasbarbell": true,
       "notes": [
@@ -75,7 +75,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/wide-grip-lat-pulldown.png",
       "hasweight": "yes",
-      "weightmin": 30,
+      "weightmin": 15,
       "weightmax": 50,
       "notes": [
         "Exhale as you slowly pull the bar down until it touches the upper part of your chest.  Squeeze your shoulder blades together and hold for a count of two.",
@@ -108,12 +108,12 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/triceps-rope-push-down.png",
       "hasweight": "yes",
-      "weightmin": 10,
+      "weightmin": 5,
       "weightmax": 20,
       "notes": ["Good in pre-exhaustion set with bodyweight triceps"]
     },
     {
-      "name": "Lying Triceps Extension",
+      "name": "Lying triceps extension",
       "minreps": 8,
       "maxreps": 10,
       "minsets": 3,
@@ -129,13 +129,47 @@
       ]
     },
     {
+      "name": "Bicycle crunch",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/bicycle-crunch.png",
+      "hasweight": "no",
+      "weightmin": 0,
+      "weightmax": 0,
+      "notes": [
+        "Keep your neck neutral and your lower back pressed against the floor",
+        "Rotate with the upper back and touch your left elbow to your right knee, and your right elbow to your left knee."
+      ]
+    },
+    {
+      "name": "Hanging legs hip raise",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/hanging-leg-raise.png",
+      "hasweight": "no",
+      "weightmin": 0,
+      "weightmax": 0,
+      "notes": [
+        "Hang from a high bar with your hands shoulder-with apart, your arms fully extended, and your legs straight. Straighten your lower back by tilting your pelvis backward.",
+        "Exhale as you slowly raise your knees as high as possible by flexing your hips and your abdomen. Hold for a count of two. Inhale as you slowly lower your legs to the starting position.",
+        "Make sure that you’re not just raising your knees. After raising your knees, you must also flex your abdomen to raise your knees even higher. If you do not flex your abdomen, your abs and obliques will only function as stabilizers.",
+        "Keep your lower back as straight as possible throughout the exercise. The exercise is best performed with your lower back pressed against a padded surface for support (see video). Instead of hanging from a bar with an unsupported lower back, use a captain’s chair if one is available."
+      ]
+    },
+    {
       "name": "Bent knee bench dip",
       "minreps": 8,
       "maxreps": 10,
       "minsets": 3,
       "maxsets": 4,
       "suggestedprogression": [8, 8, 8, "8*"],
-      "picture": "./images/bent-knee-bench-dip",
+      "picture": "./images/bent-knee-bench-dip.png",
       "hasweight": "no",
       "weightmin": 0,
       "weightmax": 0,
@@ -154,7 +188,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/dumbbell-alternate-biceps-curl.png",
       "hasweight": "yes",
-      "weightmin": 6,
+      "weightmin": 4,
       "weightmax": 14,
       "singledumbbell": true,
       "notes": [
@@ -171,7 +205,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/dumbbell-hammer-curl.png",
       "hasweight": "yes",
-      "weightmin": 6,
+      "weightmin": 3,
       "weightmax": 14,
       "singledumbbell": true,
       "notes": [
@@ -225,7 +259,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/bent-over-one-arm-dumbbell-row.png",
       "hasweight": "yes",
-      "weightmin": 8,
+      "weightmin": 4,
       "weightmax": 16,
       "notes": [
         "Just one arm",
@@ -260,7 +294,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/machine-one-arm-row.png",
       "hasweight": "yes",
-      "weightmin": 20,
+      "weightmin": 10,
       "weightmax": 40,
       "notes": [
         "Grasp the handles. Your arms and shoulders should be stretched forward.",
@@ -276,7 +310,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/dumbbell-shoulder-press.png",
       "hasweight": "yes",
-      "weightmin": 8,
+      "weightmin": 4,
       "weightmax": 16,
       "singledumbbell": true,
       "notes": [
@@ -292,9 +326,9 @@
       "minsets": 3,
       "maxsets": 5,
       "suggestedprogression": [8, 8, 8, "8*"],
-      "picture": "./images/dumbbell-shoulder-press.png",
+      "picture": "./images/incline-dumbbell-fly.png",
       "hasweight": "yes",
-      "weightmin": 4,
+      "weightmin": 2,
       "weightmax": 16,
       "singledumbbell": true,
       "notes": [
@@ -330,7 +364,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/leg-extension.png",
       "hasweight": "yes",
-      "weightmin": 16,
+      "weightmin": 7.5,
       "weightmax": 32,
       "notes": [
         "Exhale as you lift the lever forwards and upwards by straightening your legs until they are fully extended.  Hold for a count of two.  Inhale as you return the lever to the starting position by bending your knees.",
@@ -346,7 +380,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/leg-curl.png",
       "hasweight": "yes",
-      "weightmin": 16,
+      "weightmin": 12.5,
       "weightmax": 32,
       "notes": [
         "Keep the movement slow and controlled.  Try to resist the lowering of the lever; don’t just let it drop.  Don’t allow your hips to rise off the bench.",
@@ -362,7 +396,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/leg-press.png",
       "hasweight": "yes",
-      "weightmin": 30,
+      "weightmin": 20,
       "weightmax": 60,
       "notes": [
         "Keep your feet flat on the platform, and your knees and toes pointing in the same direction (slightly outward).",
