@@ -1,0 +1,408 @@
+{
+  "title": "Workout Book - Vittorio",
+  "bodyweight": 70,
+  "barbell": 7.5,
+  "plans": [
+    {
+      "name": "Day A",
+      "dayplan": [
+        ["Shoulder lateral raise"],
+        ["Barbell bench press", "Incline dumbbell fly"],
+        ["Dumbbell alternate biceps"],
+        ["Leg curl"],
+        ["Triceps push down"],
+        ["Bicycle crunch"]
+      ]
+    },
+    {
+      "name": "Day B",
+      "dayplan": [
+        ["Widegrip lat pulldown", "Assisted pull up"],
+        ["Dumbbell hammer curl (biceps)"],
+        ["Bent knee bench dip"],
+        ["Triceps push down"],
+        ["Shoulder lateral raise"],
+        ["Leg press", "Leg extension"],
+        ["Hanging legs hip raise"]
+      ]
+    }
+  ],
+  "workouts": [
+    {
+      "name": "Shoulder lateral raise",
+      "minreps": 8,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/dumbbell-lateral-raise.png",
+      "hasweight": "yes",
+      "weightmin": 3,
+      "weightmax": 10,
+      "singledumbbell": true,
+      "notes": [
+        "Bend forward a little at the hips.",
+        "Eternally rotate your shoulders so that your thumbs point out diagonally",
+        "Keeping your elbows slightly bent, exhale as you raise both upper arms out to the sides until your elbows are level with your shoulders.",
+        "Hold for a count of two.",
+        "Inhale as you lower the dumbbells to the starting position."
+      ]
+    },
+    {
+      "name": "Barbell bench press",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/barbell-bench-press.png",
+      "hasweight": "yes",
+      "weightmin": 10,
+      "weightmax": 32,
+      "hasbarbell": true,
+      "notes": [
+        "Log the total of discs",
+        "Factor out barbell weight (7.5kg) only when logging. Factor it in when computing max and 1RM.",
+        "Arch your back. While holding the barbell, retract (push together) your shoulder blades and straighten your wrists."
+      ]
+    },
+    {
+      "name": "Widegrip lat pulldown",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/wide-grip-lat-pulldown.png",
+      "hasweight": "yes",
+      "weightmin": 15,
+      "weightmax": 50,
+      "notes": [
+        "Exhale as you slowly pull the bar down until it touches the upper part of your chest.  Squeeze your shoulder blades together and hold for a count of two.",
+        "Extend your arms fully on the return phase."
+      ]
+    },
+    {
+      "name": "Assisted pull up",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/assisted-pull-up.png",
+      "hasweight": "yes",
+      "weightmin": 30,
+      "weightmax": 50,
+      "bodyweight": "subtract",
+      "notes": [
+        "Log negative weight. But factor in your weight when computing max and 1RM",
+        "After pull up, hold for a count of two and squeeze your back muscles."
+      ]
+    },
+    {
+      "name": "Triceps push down",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/triceps-rope-push-down.png",
+      "hasweight": "yes",
+      "weightmin": 5,
+      "weightmax": 20,
+      "notes": ["Good in pre-exhaustion set with bodyweight triceps"]
+    },
+    {
+      "name": "Lying triceps extension",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/lying-dumbbell-triceps-extension.png",
+      "hasweight": "yes",
+      "weightmin": 6,
+      "weightmax": 20,
+      "singledumbbell": true,
+      "notes": [
+        "Keep your upper arm still and vertical. Only your forearm should move.  Do not lock out your elbow at the top of the movement."
+      ]
+    },
+    {
+      "name": "Bicycle crunch",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/bicycle-crunch.png",
+      "hasweight": "no",
+      "weightmin": 0,
+      "weightmax": 0,
+      "notes": [
+        "Keep your neck neutral and your lower back pressed against the floor",
+        "Rotate with the upper back and touch your left elbow to your right knee, and your right elbow to your left knee."
+      ]
+    },
+    {
+      "name": "Hanging legs hip raise",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/hanging-leg-raise.png",
+      "hasweight": "no",
+      "weightmin": 0,
+      "weightmax": 0,
+      "notes": [
+        "Hang from a high bar with your hands shoulder-with apart, your arms fully extended, and your legs straight. Straighten your lower back by tilting your pelvis backward.",
+        "Exhale as you slowly raise your knees as high as possible by flexing your hips and your abdomen. Hold for a count of two. Inhale as you slowly lower your legs to the starting position.",
+        "Make sure that you’re not just raising your knees. After raising your knees, you must also flex your abdomen to raise your knees even higher. If you do not flex your abdomen, your abs and obliques will only function as stabilizers.",
+        "Keep your lower back as straight as possible throughout the exercise. The exercise is best performed with your lower back pressed against a padded surface for support (see video). Instead of hanging from a bar with an unsupported lower back, use a captain’s chair if one is available."
+      ]
+    },
+    {
+      "name": "Bent knee bench dip",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/bent-knee-bench-dip.png",
+      "hasweight": "no",
+      "weightmin": 0,
+      "weightmax": 0,
+      "notes": [
+        "Do not lower your body beyond feeling a mild stretch in your shoulders.",
+        "The point of keeping your torso upright and your elbows close to your body is to keep the emphasis on your triceps brachii instead of on your pectoralis major.",
+        "Make the bent-knee bench dip more difficult by extending your legs farther out."
+      ]
+    },
+    {
+      "name": "Dumbbell alternate biceps",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/dumbbell-alternate-biceps-curl.png",
+      "hasweight": "yes",
+      "weightmin": 4,
+      "weightmax": 14,
+      "singledumbbell": true,
+      "notes": [
+        "Remember to count to two and squeeze your biceps",
+        "Instead of alternating your arms you can complete all the reps for one arm before performing the reps with the other arm. "
+      ]
+    },
+    {
+      "name": "Dumbbell hammer curl (biceps)",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/dumbbell-hammer-curl.png",
+      "hasweight": "yes",
+      "weightmin": 3,
+      "weightmax": 14,
+      "singledumbbell": true,
+      "notes": [
+        "Remember to count to two and squeeze your biceps",
+        "You can perform the dumbbell hammer curl with either both arms at once (see video), one arm at a time, or by alternating your arms (as described above). The latter two methods will recruit more muscles in your core for stabilization."
+      ]
+    },
+    {
+      "name": "Dumbbell squat",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/dumbbell-squat.png",
+      "hasweight": "yes",
+      "weightmin": 16,
+      "weightmax": 32,
+      "singledumbbell": false,
+      "notes": [
+        "Log the sum of the two dumbbells. Weight refers to the sum.",
+        "Keeping your torso upright and your shoulders back, inhale as you squat down by pushing your butt backward and bending your knees forward. Descend at least until your thighs are parallel with the floor."
+      ]
+    },
+    {
+      "name": "Calf raise",
+      "minreps": 15,
+      "maxreps": 20,
+      "minsets": 2,
+      "maxsets": 4,
+      "suggestedprogression": [15, 15, 15, 15],
+      "picture": "./images/calf-raise.png",
+      "hasweight": "yes",
+      "weightmin": 0,
+      "weightmax": 8,
+      "bodyweight": "add",
+      "notes": [
+        "Factor in your weight when computing 1RM",
+        "With your left foot, stand on a platform, with the arch and heel of your foot suspending off.",
+        "Exhale as you raise your heel by extending your ankle (plantar flexion).",
+        "Hold for a count of two. The point of holding for a count of one after lowering your heel is to dissipate all of the elastic energy that is stored in your Achilles tendon and thus prevent cheating.",
+        "Inhale as you slowly reverse the motion (dorsiflexion) and lower your heel until you feel a mild stretch in your calf."
+      ]
+    },
+    {
+      "name": "Bent-over dumbbell row",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/bent-over-one-arm-dumbbell-row.png",
+      "hasweight": "yes",
+      "weightmin": 4,
+      "weightmax": 16,
+      "notes": [
+        "Just one arm",
+        "Pull with your elbow, not with your biceps.",
+        "Keep your torso near horizontal and your elbow tucked in.",
+        "Do not rotate your torso as you pull the dumbbell upward."
+      ]
+    },
+    {
+      "name": "Seated cable row",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/cablerow.png",
+      "hasweight": "yes",
+      "weightmin": 20,
+      "weightmax": 40,
+      "notes": [
+        "Grasp the double-row bar and slide your bottom backward until your knees are almost straight. You torso should be leaning forward and your arms and shoulders should be stretching forward.",
+        "Exhale as you slowly lean backward, straighten your back, and pull the v-bar to your abdomen, keeping your elbows close to your body. Pull your shoulders back and stick out your chest at the top of the movement.",
+        "Hold for a count of two and squeeze your back muscles. Inhale as you slowly lean forward and return the double-row bar to the starting position, with your arms and shoulders stretching forward and your lower back bent forward."
+      ]
+    },
+    {
+      "name": "Machine one-arm row",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/machine-one-arm-row.png",
+      "hasweight": "yes",
+      "weightmin": 10,
+      "weightmax": 40,
+      "notes": [
+        "Grasp the handles. Your arms and shoulders should be stretched forward.",
+        "Keeping your back straight, exhale as you pull one of the handles to the side of your waist.  Hold for a count of two, stick out your chest, and squeeze your back muscles."
+      ]
+    },
+    {
+      "name": "Dumbbell shoulder press",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/dumbbell-shoulder-press.png",
+      "hasweight": "yes",
+      "weightmin": 4,
+      "weightmax": 16,
+      "singledumbbell": true,
+      "notes": [
+        "Exhale as you press the dumbbells upward and inward until they almost touch over your head.  At the top of the movement, shrug your shoulders to raise the dumbbells even higher.",
+        "Keep your back straight.  For optimal back support, make sure your lower back is in constant contact with the back of the chair.",
+        "To raise heavy dumbbells into position, rest them on your knees and then kick them up into position one at a time."
+      ]
+    },
+    {
+      "name": "Incline dumbbell fly",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/incline-dumbbell-fly.png",
+      "hasweight": "yes",
+      "weightmin": 2,
+      "weightmax": 16,
+      "singledumbbell": true,
+      "notes": [
+        "When you have finished, bring your knees up and gently lower the dumbbells down onto your knees, which will help you to sit up.",
+        "Keeping your elbows locked, inhale as you lower the dumbbells to your sides in an arcing motion until you feel a mild stretch in your chest or shoulders.",
+        "Exhale as you reverse the motion and press the dumbbells back up to the starting position."
+      ]
+    },
+    {
+      "name": "Dumbbell bent-over lateral raise",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/dumbbell-rear-lateral-raise.png",
+      "hasweight": "yes",
+      "weightmin": 4,
+      "weightmax": 16,
+      "singledumbbell": true,
+      "notes": [
+        "Holding a dumbbell in each hand, bend at the hips and knees until your torso is parallel to the floor. Your back should be straight and your arms should be hanging in front of you, with your palms facing inwards (neutral grip).",
+        "raise both arms out to the sides until the dumbbells are level with the height of your shoulders. ",
+        "Keep your back straight and your body still.  You will not target your posterior deltoids unless your torso is horizontal."
+      ]
+    },
+    {
+      "name": "Leg extension",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/leg-extension.png",
+      "hasweight": "yes",
+      "weightmin": 7.5,
+      "weightmax": 32,
+      "notes": [
+        "Exhale as you lift the lever forwards and upwards by straightening your legs until they are fully extended.  Hold for a count of two.  Inhale as you return the lever to the starting position by bending your knees.",
+        "Adjust the back support and seat to accommodate full range of motion.  Position your knees at the same axis as the lever fulcrum.  As you raise the padded lever, do not allow your hips to curl up; keep your thighs in firm contact with the seat.  Do not go too heavy because it can be bad for your knees."
+      ]
+    },
+    {
+      "name": "Leg curl",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/leg-curl.png",
+      "hasweight": "yes",
+      "weightmin": 12.5,
+      "weightmax": 32,
+      "notes": [
+        "Keep the movement slow and controlled.  Try to resist the lowering of the lever; don’t just let it drop.  Don’t allow your hips to rise off the bench.",
+        "Keep your ankles flexed so that your toes point toward your shins. This allows your gastrocnemii to offer better assistance.  Adjusting the orientation of your feet during the lying leg curl emphasizes different hamstring muscles. Keep your feet straight to emphasize all hamstrings. Turn your feet inward to emphasize your inner hamstrings (semitendinosus and semimembranosus). Turn your feet outward to emphasize your outer hamstring (biceps femoris)."
+      ]
+    },
+    {
+      "name": "Leg press",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/leg-press.png",
+      "hasweight": "yes",
+      "weightmin": 20,
+      "weightmax": 60,
+      "notes": [
+        "Keep your feet flat on the platform, and your knees and toes pointing in the same direction (slightly outward).",
+        "Do not lock your knees out when you press the platform up.",
+        " The incline leg press is a very versatile exercise. Altering the position of your feet on the platform will emphasize different muscle groups. The higher your feet on the platform, the more you will emphasize your gluteus maximus and hamstrings. The lower your feet on the platform, the more you will emphasize your quadriceps. The wider your feet on the platform, the more you will emphasize your adductor magnus and inner quadriceps. The closer-together your feet on the platform, the more you will emphasize your outer quadriceps."
+      ]
+    }
+  ]
+}
