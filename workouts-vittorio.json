@@ -6,24 +6,29 @@
     {
       "name": "Day A",
       "dayplan": [
-        ["Shoulder lateral raise"],
-        ["Barbell bench press", "Incline dumbbell fly"],
-        ["Dumbbell alternate biceps"],
-        ["Leg curl"],
-        ["Triceps push down"],
-        ["Bicycle crunch"]
+        ["Corsa 10min, 6km/h"],
+        ["Dumbbell bench press"],
+        ["Incline dumbbell bench press"],
+        ["Triceps push down", "Lying triceps extension"],
+        ["Widegrip lat pulldown", "Assisted pull up"],
+        ["Seated cable row", "Machine one-arm row"],
+        ["Dumbbell alternate biceps", "Dumbbell hammer curl (biceps)"],
+        ["Hanging legs hip raise"],
+        ["Cable wood chop"]
       ]
     },
     {
       "name": "Day B",
       "dayplan": [
-        ["Widegrip lat pulldown", "Assisted pull up"],
-        ["Dumbbell hammer curl (biceps)"],
-        ["Bent knee bench dip"],
-        ["Triceps push down"],
+        ["Corsa 10min, 6km/h"],
+        ["Leg press"],
+        ["Leg extension"],
+        ["Leg curl"],
+        ["Riscaldamento top, livello 6, 5min"],
+        ["Shoulder press"],
         ["Shoulder lateral raise"],
-        ["Leg press", "Leg extension"],
-        ["Hanging legs hip raise"]
+        ["Hanging legs hip raise"],
+        ["Cable wood chop"]
       ]
     }
   ],
@@ -38,6 +43,26 @@
       "picture": "./images/dumbbell-lateral-raise.png",
       "hasweight": "yes",
       "weightmin": 3,
+      "weightmax": 10,
+      "singledumbbell": true,
+      "notes": [
+        "Bend forward a little at the hips.",
+        "Eternally rotate your shoulders so that your thumbs point out diagonally",
+        "Keeping your elbows slightly bent, exhale as you raise both upper arms out to the sides until your elbows are level with your shoulders.",
+        "Hold for a count of two.",
+        "Inhale as you lower the dumbbells to the starting position."
+      ]
+    },
+    {
+      "name": "Shoulder press",
+      "minreps": 8,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [8, 8, 8, "8*"],
+      "picture": "./images/shoulder-press.png",
+      "hasweight": "yes",
+      "weightmin": 5,
       "weightmax": 10,
       "singledumbbell": true,
       "notes": [
@@ -67,15 +92,53 @@
       ]
     },
     {
+      "name": "Dumbbell bench press",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [10, 10, 10, "10*"],
+      "picture": "./images/dumbbell-bench-press.png",
+      "hasweight": "yes",
+      "weightmin": 17,
+      "weightmax": 32,
+      "hasbarbell": false,
+      "notes": [
+        "Log the total of dumbbell",
+        "Position the dumbbells to the sides of your chest, with your arms bent at a 90-degree angle. Your elbows should not be pointing straight out to the sides; rather, tuck them in a little to approximately a 45-degree angle",
+        "Spread your legs, bring your feet back, and place them firmly on the ground. Either your toes or your heels should be planted firmly on the floor.",
+        "Arch your back and straighten your wrists.",
+        "It allows a greater range of motion of barbell"
+      ]
+    },
+    {
+      "name": "Incline dumbbell bench press",
+      "minreps": 6,
+      "maxreps": 12,
+      "minsets": 3,
+      "maxsets": 5,
+      "suggestedprogression": [10, 10, 10, "10*"],
+      "picture": "./images/incline-dumbbell-bench-press.png",
+      "hasweight": "yes",
+      "weightmin": 17,
+      "weightmax": 32,
+      "hasbarbell": false,
+      "notes": [
+        "Log the total of dumbbell",
+        "Use a bench inclination of 45 degrees because, when compared with other angles (0, 28, and 56), the clavicular head of the pectoralis major was found to be most active at 44 degrees, and 45 degrees is the closest setting.",
+        "Raise the seat of the bench a little to prevent yourself from sliding down."
+      ]
+    },
+    {
       "name": "Widegrip lat pulldown",
       "minreps": 6,
       "maxreps": 12,
       "minsets": 3,
       "maxsets": 5,
-      "suggestedprogression": [8, 8, 8, "8*"],
+      "suggestedprogression": [10, 10, 10, "10*"],
       "picture": "./images/wide-grip-lat-pulldown.png",
       "hasweight": "yes",
-      "weightmin": 15,
+      "weightmin": 20,
       "weightmax": 50,
       "notes": [
         "Exhale as you slowly pull the bar down until it touches the upper part of your chest.  Squeeze your shoulder blades together and hold for a count of two.",
@@ -105,10 +168,10 @@
       "maxreps": 10,
       "minsets": 3,
       "maxsets": 4,
-      "suggestedprogression": [8, 8, 8, "8*"],
+      "suggestedprogression": [10, 10, 10, "8*"],
       "picture": "./images/triceps-rope-push-down.png",
       "hasweight": "yes",
-      "weightmin": 5,
+      "weightmin": 10,
       "weightmax": 20,
       "notes": ["Good in pre-exhaustion set with bodyweight triceps"]
     },
@@ -118,10 +181,10 @@
       "maxreps": 10,
       "minsets": 3,
       "maxsets": 4,
-      "suggestedprogression": [8, 8, 8, "8*"],
+      "suggestedprogression": [10, 10, 10, "8*"],
       "picture": "./images/lying-dumbbell-triceps-extension.png",
       "hasweight": "yes",
-      "weightmin": 6,
+      "weightmin": 8,
       "weightmax": 20,
       "singledumbbell": true,
       "notes": [
@@ -145,6 +208,25 @@
       ]
     },
     {
+      "name": "Cable wood chop",
+      "minreps": 8,
+      "maxreps": 10,
+      "minsets": 3,
+      "maxsets": 4,
+      "suggestedprogression": [10, 10, 10, "10*"],
+      "picture": "./images/cable-wood-chop.png",
+      "hasweight": "yes",
+      "weightmin": 5,
+      "weightmax": 12,
+      "notes": [
+        "Grasp the stirrup with both hands, with one hand over the other or with fingers interlaced.",
+        "Turn your lower body until your feet are facing away from the pulley, and stand with a staggered stance.",
+        "Keeping your arms straight and shoulders locked in place, exhale as you rotate your torso and pull the stirrup in a diagonally downward motion until your torso faces away from the pulley and your hands are knee height",
+        "Hold for a count of two.",
+        "Try to reduce the amount of rotation that occurs in your hips"
+      ]
+    },
+    {
       "name": "Hanging legs hip raise",
       "minreps": 8,
       "maxreps": 10,
@@ -162,6 +244,7 @@
         "Keep your lower back as straight as possible throughout the exercise. The exercise is best performed with your lower back pressed against a padded surface for support (see video). Instead of hanging from a bar with an unsupported lower back, use a captain’s chair if one is available."
       ]
     },
+
     {
       "name": "Bent knee bench dip",
       "minreps": 8,
@@ -185,10 +268,10 @@
       "maxreps": 10,
       "minsets": 3,
       "maxsets": 4,
-      "suggestedprogression": [8, 8, 8, "8*"],
+      "suggestedprogression": [10, 10, 10, "10*"],
       "picture": "./images/dumbbell-alternate-biceps-curl.png",
       "hasweight": "yes",
-      "weightmin": 4,
+      "weightmin": 6,
       "weightmax": 14,
       "singledumbbell": true,
       "notes": [
@@ -202,10 +285,10 @@
       "maxreps": 10,
       "minsets": 3,
       "maxsets": 4,
-      "suggestedprogression": [8, 8, 8, "8*"],
+      "suggestedprogression": [10, 10, 10, "10*"],
       "picture": "./images/dumbbell-hammer-curl.png",
       "hasweight": "yes",
-      "weightmin": 3,
+      "weightmin": 6,
       "weightmax": 14,
       "singledumbbell": true,
       "notes": [
@@ -274,10 +357,10 @@
       "maxreps": 10,
       "minsets": 3,
       "maxsets": 4,
-      "suggestedprogression": [8, 8, 8, "8*"],
+      "suggestedprogression": [10, 10, 10, "10*"],
       "picture": "./images/cablerow.png",
       "hasweight": "yes",
-      "weightmin": 20,
+      "weightmin": 25,
       "weightmax": 40,
       "notes": [
         "Grasp the double-row bar and slide your bottom backward until your knees are almost straight. You torso should be leaning forward and your arms and shoulders should be stretching forward.",
@@ -291,12 +374,13 @@
       "maxreps": 10,
       "minsets": 3,
       "maxsets": 4,
-      "suggestedprogression": [8, 8, 8, "8*"],
+      "suggestedprogression": [10, 10, 10, "10*"],
       "picture": "./images/machine-one-arm-row.png",
       "hasweight": "yes",
       "weightmin": 10,
       "weightmax": 40,
       "notes": [
+        "Log single arm",
         "Grasp the handles. Your arms and shoulders should be stretched forward.",
         "Keeping your back straight, exhale as you pull one of the handles to the side of your waist.  Hold for a count of two, stick out your chest, and squeeze your back muscles."
       ]
@@ -364,7 +448,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/leg-extension.png",
       "hasweight": "yes",
-      "weightmin": 7.5,
+      "weightmin": 20,
       "weightmax": 32,
       "notes": [
         "Exhale as you lift the lever forwards and upwards by straightening your legs until they are fully extended.  Hold for a count of two.  Inhale as you return the lever to the starting position by bending your knees.",
@@ -380,7 +464,7 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/leg-curl.png",
       "hasweight": "yes",
-      "weightmin": 12.5,
+      "weightmin": 20,
       "weightmax": 32,
       "notes": [
         "Keep the movement slow and controlled.  Try to resist the lowering of the lever; don’t just let it drop.  Don’t allow your hips to rise off the bench.",
@@ -396,8 +480,8 @@
       "suggestedprogression": [8, 8, 8, "8*"],
       "picture": "./images/leg-press.png",
       "hasweight": "yes",
-      "weightmin": 20,
-      "weightmax": 60,
+      "weightmin": 30,
+      "weightmax": 70,
       "notes": [
         "Keep your feet flat on the platform, and your knees and toes pointing in the same direction (slightly outward).",
         "Do not lock your knees out when you press the platform up.",

@@ -1,6 +1,8 @@
 
 print-all: print-chiara print-vittorio
 
+output-all: output-chiara.pdf output-vittorio.pdf
+
 booklet-%.pdf: output-%.pdf
 	vzpdfbook $< -o $@
 
