@@ -1,4 +1,6 @@
 
+all: output-vittorio-new.pdf 
+
 booklets: booklet-chiara.pdf booklet-vittorio.pdf
 
 print-all: print-chiara print-vittorio
